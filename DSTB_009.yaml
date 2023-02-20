@@ -12,17 +12,5 @@ proxies:
     path: /sweetws
     headers:
       Host: trojanws-biz2.vpsme.my.id
-- name: DanuJuragan01_LiveONBizzNet_B
-  type: trojan
-  server: support.liveon.id
-  port: 443
-  password: d0605b28-cc8c-41df-9c89-b18ffdd0006c
-  udp: true
-  sni: trojanws-biz2.vpsme.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /sweetws
-    headers:
-      Host: trojanws-biz2.vpsme.my.id
+
 
