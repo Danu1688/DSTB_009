@@ -1,7 +1,7 @@
 proxies:
 - name: AlongTahu_LiveDO_1
   type: trojan
-  server: 104.21.8.121
+  server: circles.asia
   port: 443
   password: 2d1ef6c2-0920-44a2-9d38-1ac9cd253be3
   udp: true
