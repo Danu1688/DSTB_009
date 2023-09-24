@@ -1,4 +1,17 @@
 proxies:
+- name: TahuNusa_LiveNusa_1
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 274eaf2d-5cdb-4400-bdd5-4036b0fe9143
+  udp: true
+  sni: vpna4mvbhv.scpotato.me
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: vpna4mvbhv.scpotato.me
 - name: AlongTahu_LiveDO_1
   type: trojan
   server: circles.asia
